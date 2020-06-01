@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+  .avatar {
+    width: 140px;
+  }
+}
+footer {
+  height: 50vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+footer:hover {
+  cursor: pointer;
+  background: rgba(78, 78, 78, 0.596);
+  color: white;
+}
